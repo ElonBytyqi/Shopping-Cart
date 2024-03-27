@@ -1,0 +1,51 @@
+.cartCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-position: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soften the shadow */
+  border-radius: 8px; /* Increase border radius for smoother edges */
+  margin: 20px; /* Decrease margin for tighter spacing */
+  padding: 20px; /* Increase padding for better separation */
+  background-color: #fff; /* Add a background color for a cleaner look */
+}
+
+.cartCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a slight shadow on hover for interaction */
+}
+  
+  .cartCard img{
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .cartCard .productName{
+    width: 350px;
+    margin-right: 10px;
+  }
+  
+  .cartCard .productPrice{
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .cartCard button{
+    border: 0px;
+    background-color: #ac0d14;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .cartCard button:hover{
+    background-color: #8e090f;
+  }
+  
+  
+  @media screen and (max-width: 680px) {
+    .cartCard img{
+        display: none;
+    }
+  }
